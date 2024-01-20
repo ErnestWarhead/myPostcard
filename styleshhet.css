@@ -1,1 +1,37 @@
-.body {}
+.body{
+  height: 35vw;
+  width: 60vw;
+  margins: 10wh auto;
+}
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 25%
+  margin-top: 0;
+}
+.top img{
+  height: 90%;
+  width: auto;
+  margin-top: 5%
+  margin-right: 5%
+        }
+.top h1{
+  font-size: 7vw;
+  text-align: center;
+  padding-left: 10%
+}
+.middle{
+  display: left;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50%
+  margin-top: 25%;
+}
+.middle form{
+  float: left;
+  padding-left: 10%
+}
+
