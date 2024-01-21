@@ -1,37 +1,71 @@
+body{
+  font-family: "Architects Daughter", sans-serif;
+  background-color: black;
+}
 .body{
+  display: flex;
+  flex-direction: column;
   height: 35vw;
   width: 60vw;
-  margins: 10wh auto;
+  margin: 10vh auto;
+  background-color: white;
+
 }
 .top{
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 100%;
-  height: 25%
-  margin-top: 0;
+  height: 25%;
 }
 .top img{
   height: 90%;
   width: auto;
-  margin-top: 5%
-  margin-right: 5%
+  margin-top: 0.8%;
+  margin-left: 85%;
         }
 .top h1{
-  font-size: 7vw;
-  text-align: center;
-  padding-left: 10%
+  position: absolute;
+  font-size: 3vw;
+  padding-left: 1%;
+  
 }
 .middle{
-  display: left;
-  align-items: center;
-  justify-content: center;
+  display: flex;
+  height: 55%;
   width: 100%;
-  height: 50%
-  margin-top: 25%;
 }
-.middle form{
-  float: left;
-  padding-left: 10%
+.middle-left{
+  width: 50%;
+}
+.middle-right{
+  width: 50%;
+}
+.middle-right form{
+  margin-left: 10%;
+}
+.middle-left p{
+  line-height: 1.3;
+  margin-top: 0;
+  font-size: 2vw;
+  margin-left: 1%;
+}
+.middle-left p:nth-child(2) {
+  font-weight: bold;
+}
+.bottom{
+  display: flex;
+  justify-content: center;
+  padding-top: 0.5vw
+}
+.bottom a{
+  background-color: lightgray;
+  border: 2px solid;
+  border-color: lightgray gray gray lightgray;
+}
+.button:hover{
+  background-color: lightgray;
+  border-color: lightgray lightgray lightgray lightgray;
+}
+.button:active{
+  background-color: gray;
+  border-color: gray lightgray  lightgray gray;
 }
 
