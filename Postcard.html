@@ -2,7 +2,8 @@
 <html>
   <head>
     <title>Ernest's Postcard</title>
-    <link rel="stylesheet" href="styleshhet.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="body">
@@ -11,16 +12,23 @@
         <img src="https://github.com/breatheco-de/exercise-postcard/blob/main/.learn/assets/4geeks.png?raw=true" alt="4Geeks Logo"/>
       </div>
       <div class="middle">
+      <div class="middle-left">
         <p>Look how awesome! This is a postcard that I created using HTML5 and CSS3 during my 4Geeks Academy Course!</p>
         <p>This is so cool, can't wait to start doing more stuff!</p>
+      </div>
+      <div class= "middle-right">
         <form>
-          <input type="text" placeholder="some Name"/>
-          <input type="email" placeholder="some Email"/>
-          <textarea placeholder="Some comment"></textarea>
+<!-- 
+    NOTE: The styles for the elements below, as well as an anchor element towards the end of this document, are implemented using inline CSS. This approach was necessitated due to issues with overriding default styles in the Koder iOS app. Inline styling is typically not recommended for maintainability reasons, but it was used here as a workaround to achieve the desired appearance in this specific development environment.
+-->
+          <input id="input" type="text" placeholder="Some Name" style="font-family: 'Architects Daughter', sans-serif; font-size: 2vw; background: none; border: none; border-bottom: 1px solid gray;"/>
+          <input type="email" placeholder="Some Email" style="font-family: 'Architects Daughter', sans-serif; font-size: 2vw; background: none; border: none; border-bottom: 1px solid gray;"/>
+          <input type="text" placeholder="Some comment" style="font-family: 'Architects Daughter', sans-serif; font-size: 2vw; background: none; border: none; border-bottom: 1px solid gray;"/>
         </form>
       </div>
+      </div>
       <div class="bottom">
-       <a href="#" class="button">Send My Postcard</a>
+       <a style="text-decoration: none; color: black" href="#" class="button">Send My Postcard</a>
         </div>
     </div>
   </body>
